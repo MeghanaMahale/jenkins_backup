@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.53">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/kShopProject-Parent-m_Meghana_WS/target/surefire-reports/TEST-com.crm.crm.CrmApplicationTests.xml</file>
+      <name>com.crm.crm.CrmApplicationTests</name>
+      <duration>7.297</duration>
+      <time>7.297</time>
+      <nodeId>28</nodeId>
+      <enclosingBlocks>
+        <string>21</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.115</duration>
+          <className>com.crm.crm.CrmApplicationTests</className>
+          <testName>contextLoads</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>7.297</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

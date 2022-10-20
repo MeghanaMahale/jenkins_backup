@@ -1,0 +1,44 @@
+Started
+[Mon Oct 10 12:22:58 UTC 2022] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git ls-remote --symref -- https://github.com/MeghanaMahale/DevOpsWorkShopProject-Parent.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-dc1a9dc5a7d6f12a9ca133d5bc537649/.git # timeout=10
+Setting origin to https://github.com/MeghanaMahale/DevOpsWorkShopProject-Parent.git
+ > git config remote.origin.url https://github.com/MeghanaMahale/DevOpsWorkShopProject-Parent.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git ls-remote -h -- https://github.com/MeghanaMahale/DevOpsWorkShopProject-Parent.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch Arati_WS
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: Arati_WS (still at 2835f99bd17ec3a6b7d17bcc7713b13707178931)
+  Checking branch master
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch Neelam_WS
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: Neelam_WS (still at c42a2edbdbf054b144cfcf301ec463ede15e0205)
+  Checking branch Meghana_WS
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: Meghana_WS (still at 9948b9428dddc8a5686323ee18a7d530f8f3d90a)
+  Checking branch Pramod_WS
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: Pramod_WS (still at 909b04d196c7b08961e89747a1ee7f40755f9f79)
+  Checking branch Soumya_WS
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: Soumya_WS (still at 82947e6e134c9457ab37555dfd6d774633336140)
+Processed 6 branches
+[Mon Oct 10 12:22:59 UTC 2022] Finished branch indexing. Indexing took 1.1 sec
+Finished: SUCCESS

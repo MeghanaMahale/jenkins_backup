@@ -1,0 +1,34 @@
+Started
+[Wed Aug 24 10:41:53 UTC 2022] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote --symref -- https://github.com/MeghanaMahale/demo.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-f1cffbbcbfe6900bd321d66fcd530f4c/.git # timeout=10
+Setting origin to https://github.com/MeghanaMahale/demo.git
+ > git config remote.origin.url https://github.com/MeghanaMahale/demo.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/MeghanaMahale/demo.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch main
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: main (c45a76bcfdf5e1d33350b69db69f747c947d0cd5 → 8b74c8a5cca788efc294fe4a94ca1d28cb530f12)
+Scheduled build for branch: main
+  Checking branch soumya
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: soumya (still at 55d82352ffebfde390641dc155c04e7dc756d27e)
+  Checking branch meghana
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: meghana (still at 695692110f58401bd56fc719f4e9c485fd59ea22)
+Processed 3 branches
+[Wed Aug 24 10:41:55 UTC 2022] Finished branch indexing. Indexing took 2.1 sec
+Finished: SUCCESS

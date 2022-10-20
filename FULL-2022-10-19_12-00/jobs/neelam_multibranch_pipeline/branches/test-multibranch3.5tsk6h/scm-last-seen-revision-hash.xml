@@ -1,0 +1,7 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.git.GitBranchSCMRevision plugin="git@4.10.3">
+  <head class="jenkins.plugins.git.GitBranchSCMHead">
+    <name>test_multibranch3</name>
+  </head>
+  <hash>638b17dc1e4df0bf32f63c551c94ad1ff661e793</hash>
+</jenkins.plugins.git.GitBranchSCMRevision>

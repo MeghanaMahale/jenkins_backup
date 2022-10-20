@@ -1,0 +1,10 @@
+commit 2e8238fa1c2aa6b7090f9ad2fc7133659d527c34
+tree 89d9ecee747eb87b5a2b97c30fe10defe6f1f0ef
+parent 35f7d5f5a24451c5f34e09d891740314ebd70602
+author Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 11:13:11 +0530
+committer Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 11:13:11 +0530
+
+    changed jenkinsfile of test_multibranch2
+
+
+:100644 100644 7b8e97fd81f1c81c4bbe2c271bea98d1f4d78447 de7bb9ed8b4cb57869493eecadd381db25df61e2 M	Jenkinsfile

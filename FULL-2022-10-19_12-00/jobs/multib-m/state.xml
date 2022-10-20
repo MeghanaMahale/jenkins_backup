@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.7.0">
+  <sourceActions>
+    <entry>
+      <string>153f9b07-e4e9-4798-a27b-977e9df16aa6</string>
+      <list>
+        <jenkins.plugins.git.GitRemoteHeadRefAction plugin="git@4.10.3">
+          <remote>https://github.com/MeghanaMahale/demo.git</remote>
+          <name>main</name>
+        </jenkins.plugins.git.GitRemoteHeadRefAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

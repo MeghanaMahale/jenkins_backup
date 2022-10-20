@@ -1,0 +1,69 @@
+commit 638b17dc1e4df0bf32f63c551c94ad1ff661e793
+tree 2af3a63aa0642314bfaca515314ed5b971995d6f
+parent ebf62e7dd4556ff4887fa510e9303e6e91b6f9bb
+author Neelam-zanvar <98389856+Neelam-zanvar@users.noreply.github.com> 2022-08-23 15:01:11 +0530
+committer GitHub <noreply@github.com> 2022-08-23 15:01:11 +0530
+
+    Update Jenkinsfile
+
+:100644 100644 131e6a70db6a78bcbc47c50ed3e54c3d29ad349c 6326e097c6e38da904de9005c23156ca3b875dfd M	Jenkinsfile
+commit ebf62e7dd4556ff4887fa510e9303e6e91b6f9bb
+tree f3e02a3a48fe4e54b32109ddf2705604e7409e4f
+parent 120bc01cc3364d469693e40501aa3ea94790fcc4
+author Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 14:45:42 +0530
+committer Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 14:45:42 +0530
+
+    changed Jenkinsfile
+
+
+:100644 100644 dffb7652f82689fa34406920a0b7d761ca4eb2c1 131e6a70db6a78bcbc47c50ed3e54c3d29ad349c M	Jenkinsfile
+commit 120bc01cc3364d469693e40501aa3ea94790fcc4
+tree f772d32146dc35fcaf6a0d0cbdf0ae4ff91dfe92
+parent 621903b701b4b21ed8178a362265483cffe56d42
+author Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 12:44:38 +0530
+committer Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 12:44:38 +0530
+
+    added Jenkinsfile
+
+
+:000000 100644 0000000000000000000000000000000000000000 dffb7652f82689fa34406920a0b7d761ca4eb2c1 A	Jenkinsfile
+commit 621903b701b4b21ed8178a362265483cffe56d42
+tree 5afade8c752dd085018714e536bdf76d16508764
+parent 35fcc5175436479fb8e74a6bb23689897ce30a88
+author Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 11:16:53 +0530
+committer Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 11:16:53 +0530
+
+    removed jenkinsfile from mulibranch3
+
+
+:100644 000000 85d0209a9c4459ffc0f51b1c512c7be6dc2f64f4 0000000000000000000000000000000000000000 D	Jenkinsfile
+commit 35fcc5175436479fb8e74a6bb23689897ce30a88
+tree d798f2fa9af7e94fcd86f5325335ced42db309d8
+parent 00a0980043cc237ded4d5764df926ab390740aab
+author Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 11:15:05 +0530
+committer Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 11:15:05 +0530
+
+    changed jenkinsfile
+
+
+:100644 100644 e7881758b6d866697d0b2058e1cbb197caa2c03e 85d0209a9c4459ffc0f51b1c512c7be6dc2f64f4 M	Jenkinsfile
+commit 00a0980043cc237ded4d5764df926ab390740aab
+tree 1d5f6837e2ebc5fa10e1995292fca5451479242f
+parent 4b601fc6530802c0b6bd255401b72331fd2b6da2
+author Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 11:13:57 +0530
+committer Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 11:13:57 +0530
+
+    changed jenkinsfile
+
+
+:100644 100644 06f05d04a8cce2013a95c152479919f06cd36a71 e7881758b6d866697d0b2058e1cbb197caa2c03e M	Jenkinsfile
+commit 4b601fc6530802c0b6bd255401b72331fd2b6da2
+tree 09202c8f060d52c29d804ccd3c84d5a2f7e5744c
+parent 343545f7a59a425b6e8db0c0054ff8585f384545
+author Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 10:56:20 +0530
+committer Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 10:56:20 +0530
+
+    added jenkinsfile to test multibranch
+
+
+:100644 100644 c6ff925df77f25930bb85c10292650f60817b3ad 06f05d04a8cce2013a95c152479919f06cd36a71 M	Jenkinsfile

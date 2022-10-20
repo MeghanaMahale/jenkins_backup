@@ -1,0 +1,40 @@
+Started by user [8mha:////4ErIMm/cMYZfa8q1S0qTEjWql5nXkgKLDGruUfOBZBPdAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYe/dLi1CL9vNTUnMRcAMEEmhrBAAAA[0mneelam zanvar
+[Thu Aug 25 06:19:44 UTC 2022] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git ls-remote --symref -- https://github.com/Neelam-zanvar/java-hello-world-with-maven.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-f680319d6f0ed289d39c03495de8bb6b/.git # timeout=10
+Setting origin to https://github.com/Neelam-zanvar/java-hello-world-with-maven.git
+ > git config remote.origin.url https://github.com/Neelam-zanvar/java-hello-world-with-maven.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -- https://github.com/Neelam-zanvar/java-hello-world-with-maven.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch test_multibranch2
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: test_multibranch2 (still at 2e8238fa1c2aa6b7090f9ad2fc7133659d527c34)
+  Checking branch test_multibranch3
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: test_multibranch3 (still at 638b17dc1e4df0bf32f63c551c94ad1ff661e793)
+  Checking branch master
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at 504b8279fa4189dd4521dedc36a8ce49cf800926)
+  Checking branch test_multibranch
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: test_multibranch (still at 00a0980043cc237ded4d5764df926ab390740aab)
+Processed 4 branches
+[Thu Aug 25 06:19:46 UTC 2022] Finished branch indexing. Indexing took 1.7 sec
+Finished: SUCCESS

@@ -1,0 +1,29 @@
+Started by user [8mha:////4OziN4lptSSsw+SYeTBTtMYtapxpqDIt7Dl/IO4wk0KsAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL94vzS3MpEAELPz2/BAAAA[0msoumya
+[Wed Aug 24 10:54:16 UTC 2022] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote --symref -- https://github.com/minutussoumya/Demo.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-90469c845dc5fec413b45dd0ac9f3f89/.git # timeout=10
+Setting origin to https://github.com/minutussoumya/Demo.git
+ > git config remote.origin.url https://github.com/minutussoumya/Demo.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/minutussoumya/Demo.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch code
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: code (still at f1044ce528a95decc83ccd439861e73a711f1010)
+  Checking branch main
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: main (still at 0e2abc50e4364163f00632ce45413e03875b625b)
+Processed 2 branches
+[Wed Aug 24 10:54:18 UTC 2022] Finished branch indexing. Indexing took 1.8 sec
+Finished: SUCCESS

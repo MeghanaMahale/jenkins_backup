@@ -1,0 +1,44 @@
+Started
+[Fri Aug 26 05:51:00 UTC 2022] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote --symref -- https://github.com/minutussoumya/Multibranch_pipeline.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-8a9e7480d0a77c300aebb2bd75eb8367/.git # timeout=10
+Setting origin to https://github.com/minutussoumya/Multibranch_pipeline.git
+ > git config remote.origin.url https://github.com/minutussoumya/Multibranch_pipeline.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/minutussoumya/Multibranch_pipeline.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch Arati_ws
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: Arati_ws (still at ff5da3e43ab2d0748639f090f6c8e0115dd008b1)
+  Checking branch master
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch Neelam_ws
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: Neelam_ws (still at ff5da3e43ab2d0748639f090f6c8e0115dd008b1)
+  Checking branch Meghana_ws
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: Meghana_ws (still at ff5da3e43ab2d0748639f090f6c8e0115dd008b1)
+  Checking branch Pramod_ws
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: Pramod_ws (still at ff5da3e43ab2d0748639f090f6c8e0115dd008b1)
+  Checking branch Soumya_ws
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: Soumya_ws (still at ff5da3e43ab2d0748639f090f6c8e0115dd008b1)
+Processed 6 branches
+[Fri Aug 26 05:51:02 UTC 2022] Finished branch indexing. Indexing took 2.1 sec
+Finished: SUCCESS

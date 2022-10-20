@@ -1,0 +1,7 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.git.GitBranchSCMRevision plugin="git@4.12.1">
+  <head class="jenkins.plugins.git.GitBranchSCMHead">
+    <name>Neelam_WS</name>
+  </head>
+  <hash>c42a2edbdbf054b144cfcf301ec463ede15e0205</hash>
+</jenkins.plugins.git.GitBranchSCMRevision>

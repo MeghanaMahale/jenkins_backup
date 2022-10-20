@@ -1,0 +1,7 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.git.GitBranchSCMRevision plugin="git@4.12.1">
+  <head class="jenkins.plugins.git.GitBranchSCMHead">
+    <name>Pramod_WS</name>
+  </head>
+  <hash>909b04d196c7b08961e89747a1ee7f40755f9f79</hash>
+</jenkins.plugins.git.GitBranchSCMRevision>

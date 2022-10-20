@@ -1,0 +1,38 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<io.jenkins.plugins.opentelemetry.JenkinsOpenTelemetryPluginConfiguration plugin="opentelemetry@2.9.2">
+  <endpoint>http://43.204.205.20:8200</endpoint>
+  <trustedCertificatesPem></trustedCertificatesPem>
+  <authentication class="io.jenkins.plugins.opentelemetry.authentication.NoAuthentication"/>
+  <observabilityBackends>
+    <io.jenkins.plugins.opentelemetry.backend.ElasticBackend>
+      <name>Elastic Observability</name>
+      <displayKibanaDashboardLink>true</displayKibanaDashboardLink>
+      <kibanaBaseUrl>https://devops.minutuscloud.com/kibana</kibanaBaseUrl>
+      <kibanaSpaceIdentifier></kibanaSpaceIdentifier>
+      <kibanaDashboardTitle>Jenkins Overview</kibanaDashboardTitle>
+      <kibanaDashboardUrlParameters>title=${kibanaDashboardTitle}&amp;_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-24h%2Fh,to:now))</kibanaDashboardUrlParameters>
+      <elasticLogsBackend class="io.jenkins.plugins.opentelemetry.backend.elastic.ElasticLogsBackendWithJenkinsVisualization">
+        <elasticsearchUrl>http://43.204.205.20:9200</elasticsearchUrl>
+        <disableSslVerifications>false</disableSslVerifications>
+        <elasticsearchCredentialsId>elk-cred</elasticsearchCredentialsId>
+      </elasticLogsBackend>
+    </io.jenkins.plugins.opentelemetry.backend.ElasticBackend>
+  </observabilityBackends>
+  <ignoredSteps>dir,echo,isUnix,pwd,properties</ignoredSteps>
+  <disabledResourceProviders>io.opentelemetry.sdk.extension.resources.ProcessResourceProvider</disabledResourceProviders>
+  <exportOtelConfigurationAsEnvironmentVariables>true</exportOtelConfigurationAsEnvironmentVariables>
+  <configurationProperties></configurationProperties>
+  <serviceName>jenkins</serviceName>
+  <serviceNamespace>jenkins</serviceNamespace>
+  <statusUnsetCausesOfInterruption class="java.util.Arrays$ArrayList">
+    <a class="string-array">
+      <string>org.jenkinsci.plugins.workflow.cps.steps.ParallelStep$FailFastCause</string>
+      <string>org.jenkinsci.plugins.workflow.support.steps.StageStepExecution$CanceledCause</string>
+      <string>jenkins.model.CauseOfInterruption$UserInterruption</string>
+    </a>
+  </statusUnsetCausesOfInterruption>
+  <jenkinsLocationConfiguration>
+    <adminAddress>address not configured yet &lt;nobody@nowhere&gt;</adminAddress>
+    <jenkinsUrl>https://devops.minutuscloud.com/</jenkinsUrl>
+  </jenkinsLocationConfiguration>
+</io.jenkins.plugins.opentelemetry.JenkinsOpenTelemetryPluginConfiguration>

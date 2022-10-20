@@ -1,0 +1,10 @@
+commit 00a0980043cc237ded4d5764df926ab390740aab
+tree 1d5f6837e2ebc5fa10e1995292fca5451479242f
+parent 4b601fc6530802c0b6bd255401b72331fd2b6da2
+author Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 11:13:57 +0530
+committer Neelam-zanvar <neelam.zanvar@minutuscomputing.com> 2022-08-23 11:13:57 +0530
+
+    changed jenkinsfile
+
+
+:100644 100644 06f05d04a8cce2013a95c152479919f06cd36a71 e7881758b6d866697d0b2058e1cbb197caa2c03e M	Jenkinsfile

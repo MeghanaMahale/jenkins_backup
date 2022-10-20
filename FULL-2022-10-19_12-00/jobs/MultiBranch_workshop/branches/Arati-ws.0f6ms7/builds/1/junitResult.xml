@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.53">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/MultiBranch_workshop_Arati_ws/target/surefire-reports/TEST-com.crm.crm.CrmApplicationTests.xml</file>
+      <name>com.crm.crm.CrmApplicationTests</name>
+      <duration>14.678</duration>
+      <time>14.678</time>
+      <nodeId>28</nodeId>
+      <enclosingBlocks>
+        <string>21</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.087</duration>
+          <className>com.crm.crm.CrmApplicationTests</className>
+          <testName>contextLoads</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>14.678</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

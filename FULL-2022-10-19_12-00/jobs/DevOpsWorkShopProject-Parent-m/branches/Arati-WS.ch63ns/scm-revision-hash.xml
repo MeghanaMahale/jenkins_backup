@@ -1,0 +1,7 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.git.GitBranchSCMRevision plugin="git@4.12.1">
+  <head class="jenkins.plugins.git.GitBranchSCMHead">
+    <name>Arati_WS</name>
+  </head>
+  <hash>2835f99bd17ec3a6b7d17bcc7713b13707178931</hash>
+</jenkins.plugins.git.GitBranchSCMRevision>

@@ -1,0 +1,36 @@
+Started
+[Wed Aug 24 10:18:35 UTC 2022] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote --symref -- https://github.com/arati-k/multibranch.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-b551c56d22a96b09989f66ba1250ffa4/.git # timeout=10
+Setting origin to https://github.com/arati-k/multibranch.git
+ > git config remote.origin.url https://github.com/arati-k/multibranch.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/arati-k/multibranch.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch branch2
+      ‘jenkinsfile’ found
+    Met criteria
+No changes detected: branch2 (still at d0eacb270d59546401647bfcff4ece2fd97b1619)
+  Checking branch branch1
+      ‘jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch branch3
+      ‘jenkinsfile’ found
+    Met criteria
+No changes detected: branch3 (still at 4f2451430a84fe50c5206a97d99aba353e5dcd80)
+  Checking branch main
+      ‘jenkinsfile’ found
+    Met criteria
+No changes detected: main (still at 7e6b35e4ebc99d13bc88441a6393f03915298ed1)
+Processed 4 branches
+[Wed Aug 24 10:18:37 UTC 2022] Finished branch indexing. Indexing took 1.9 sec
+Finished: SUCCESS

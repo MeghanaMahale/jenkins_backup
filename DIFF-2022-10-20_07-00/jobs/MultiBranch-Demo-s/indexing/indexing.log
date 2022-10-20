@@ -1,0 +1,28 @@
+Started by user [8mha:////4OziN4lptSSsw+SYeTBTtMYtapxpqDIt7Dl/IO4wk0KsAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL94vzS3MpEAELPz2/BAAAA[0msoumya
+[Wed Aug 24 10:06:59 UTC 2022] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote --symref -- https://github.com/minutuscomputing/devops-workshop-tools.git # timeout=10
+ERROR: [Wed Aug 24 10:07:01 UTC 2022] Could not update folder level actions from source 51018660-c7e7-4d11-aa1b-dd611127f009
+[Wed Aug 24 10:07:01 UTC 2022] Finished branch indexing. Indexing took 1.4 sec
+FATAL: Failed to recompute children of MultiBranch-Demo-s
+hudson.plugins.git.GitException: Command "git ls-remote --symref -- https://github.com/minutuscomputing/devops-workshop-tools.git" returned status code 128:
+stdout: 
+stderr: remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/minutuscomputing/devops-workshop-tools.git/'
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2671)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:2096)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:1996)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:1987)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.getRemoteSymbolicReferences(CliGitAPIImpl.java:3645)
+	at jenkins.plugins.git.AbstractGitSCMSource.retrieveActions(AbstractGitSCMSource.java:1150)
+	at jenkins.scm.api.SCMSource.fetchActions(SCMSource.java:848)
+	at jenkins.branch.MultiBranchProject.computeChildren(MultiBranchProject.java:598)
+	at com.cloudbees.hudson.plugins.folder.computed.ComputedFolder.updateChildren(ComputedFolder.java:278)
+	at com.cloudbees.hudson.plugins.folder.computed.FolderComputation.run(FolderComputation.java:166)
+	at jenkins.branch.MultiBranchProject$BranchIndexing.run(MultiBranchProject.java:1032)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE
